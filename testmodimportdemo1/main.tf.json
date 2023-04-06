@@ -45,5 +45,12 @@
                 }
             }
         }
+    },
+    {
+        "resource": {
+            "aws_kendra_index": {
+                "kendrasn123": {}
+            }
+        }
     }
 ]
