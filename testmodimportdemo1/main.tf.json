@@ -1,0 +1,36 @@
+[
+    {
+        "provider": {
+            "aws": {
+                "region": "ap-south-1"
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_codebuild_project": {
+                "Servicename_codebuildMod": {
+                    "artifacts": {},
+                    "environment": {},
+                    "name": "nm",
+                    "service_role": "servicerole",
+                    "source": {}
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_amplify_webhook": {
+                "amplify_mod1": {}
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_cognito_identity_pool_roles_attachment": {
+                "cI001": {}
+            }
+        }
+    }
+]
