@@ -32,5 +32,18 @@
                 "cI001": {}
             }
         }
+    },
+    {
+        "resource": {
+            "aws_appsync_function": {
+                "async0235": {
+                    "api_id": "id",
+                    "data_source": "ds",
+                    "name": "nm",
+                    "request_mapping_template": "rmt",
+                    "response_mapping_template": "rnt"
+                }
+            }
+        }
     }
 ]
