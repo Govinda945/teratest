@@ -29,11 +29,11 @@
         "resource": {
             "aws_appintegrations_event_integration": {
                 "ai895": {
-                    "eventbridge_bus": "bridgebus",
+                    "eventbridge_bus": "${var.bridgebus}",
                     "event_filter": {
-                        "source": "none"
+                        "source": "${var.abc}"
                     },
-                    "name": "name"
+                    "name": "${var.name}"
                 }
             }
         }
