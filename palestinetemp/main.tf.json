@@ -19,8 +19,8 @@
         "resource": {
             "aws_athena_database": {
                 "ec569": {
-                    "bucket": "bket",
-                    "name": "name updated"
+                    "bucket": "${var.bket}",
+                    "name": "${var.name updated}"
                 }
             }
         }
