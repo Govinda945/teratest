@@ -12,5 +12,37 @@
                 "api": {}
             }
         }
+    },
+    {
+        "resource": {
+            "aws_emrcontainers_virtual_cluster": {
+                "emr985": {
+                    "container_provider": "cpva",
+                    "name": "nmc"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_emrserverless_application": {
+                "lessserveremr": {
+                    "name": "nm",
+                    "release_label": "rl",
+                    "type": "ty"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_backup_vault_notifications": {
+                "ban9454": {
+                    "backup_vault_name": "bvm",
+                    "sns_topic_arn": "sta",
+                    "backup_vault_events": "bve"
+                }
+            }
+        }
     }
 ]
