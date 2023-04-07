@@ -20,7 +20,7 @@
             "aws_athena_database": {
                 "ec569": {
                     "bucket": "bket",
-                    "name": "name"
+                    "name": "name updated"
                 }
             }
         }
