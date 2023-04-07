@@ -24,5 +24,12 @@
                 }
             }
         }
+    },
+    {
+        "resource": {
+            "aws_appintegrations_event_integration": {
+                "ai895": {}
+            }
+        }
     }
 ]
